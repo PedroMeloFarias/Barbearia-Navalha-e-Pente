@@ -1,0 +1,346 @@
+* {
+    margin: 0%;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.nav_listas_navegação_e_comunidade {
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: flex;
+    background-image: linear-gradient(to bottom right, black, brown);
+}
+
+.section_lista_navegação {
+    width: 50%;
+}
+
+.lista_navegação {
+    list-style: none;
+    display: flex;
+    padding-left: 0%;
+}
+
+.lista_navegação > li {
+    padding: 13px;
+}
+
+#a_lista_navegação {
+    color: white;
+    text-decoration: none;
+    padding: 13px 8px;
+}
+
+#a_lista_navegação:hover {
+    cursor: pointer;
+    background-color: #ddd;
+    color: #000;
+}
+
+.home {
+    background-color: #000;
+}
+
+.section_lista_comunidade {
+    width: 50%;
+}
+
+.lista_comunidade {
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.lista_comunidade > li {
+    padding: 13px;
+}
+
+.div_img_apresentação {
+    display: flex;
+}
+
+.introdução_serviços {
+    text-align: center;
+    background-image: linear-gradient(to bottom right, black, brown);
+    color: #ddd;
+    padding: 10px;
+}
+
+.div_serviços {
+    background-image: url('img/img_serviços_2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.div_serviços_introdução {
+    color: rgb(220, 220, 220);
+    text-align: center;
+}
+
+.div_serviços_corpo_1 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+
+.section_serviços_corpo_1 {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(95, 89, 89);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#section_corte {
+    background-image: url(img/corte_background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.section_corte_img {
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+#section_barba {
+    background-image: url(img/barba_background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.section_barba_img {
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+#section_pigmentação {
+    background-image: url(img/pigmentação_background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.section_pigmentação_img {
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.div_serviços_corpo_2 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 60px; 
+}
+
+.section_serviços_corpo_2 {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(95, 89, 89);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#section_sobrancelha {
+    background-image: url(img/sobrancelha_background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.section_sobrancelha_img {
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+#section_acabamento {
+    background-image: url(img/acabamentos_background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.section_acabamento_img {
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.introdução_equipe {
+    text-align: center;
+    background-image: linear-gradient(to bottom right, black, brown);
+    color: #ddd;
+    padding: 10px;
+}
+
+.equipe {
+    display: flex;
+    text-align: center;
+}
+
+.integrantes {
+    width: 25%;
+    color: #000;
+    padding: 10px;
+}
+
+#integrante_1 {
+    background-color: #939393;
+}
+
+#integrante_2 {
+    background-color: #858484;
+}
+
+#integrante_3 {
+    background-color: #939393;
+}
+
+#integrante_4 {
+    background-color: #858484;
+}
+
+.avatar_integrantes {
+    padding: 10px;
+}
+
+.avatar_integrantes > img {
+    width: 200px;
+    height: 180px;
+    border-radius: 10%;
+    filter: grayscale(1);
+}
+
+.avatar_integrantes > img:hover {
+    cursor: pointer;
+    filter: grayscale(0);
+    border-radius: 50%;
+}
+
+.descrição_integrantes {
+    height: 150px;
+}
+
+#descrição_integrante_1 {
+    background-color: #858484;
+}
+
+#descrição_integrante_2 {
+    background-color: #939393;
+}
+
+#descrição_integrante_3 {
+    background-color: #858484;
+}
+
+#descrição_integrante_4 {
+    background-color: #939393;
+}
+
+#rodapé_integrante_1 {
+    background-color: #858484;
+}
+
+#rodapé_integrante_2 {
+    background-color: #939393;
+}
+
+#rodapé_integrante_3 {
+    background-color: #858484;
+}
+
+#rodapé_integrante_4 {
+    background-color: #939393;
+}
+
+.redes_sociais_integrantes {
+    padding-left: 110px;
+}
+
+.lista_redes_sociais_integrantes {
+    list-style: none;
+    display: flex;
+}
+
+.lista_redes_sociais_integrantes > li {
+    padding: 8px;
+}
+
+.ícones_integrantes {
+    text-decoration: none;
+    filter: grayscale(1);
+}
+
+.ícones_integrantes:hover {
+    cursor: pointer;
+    filter: grayscale(0);
+}
+
+.introdução_blog {
+    text-align: center;
+    background-image: linear-gradient(to bottom right, black, brown);
+    color: #ddd;
+    padding: 10px;
+}
+
+.blog_barbearia {
+    background-color: #000;
+    color: #ddd;
+}
+
+@media(max-width: 850px) {
+    .avatar_integrantes > img {
+        width: 130px;
+        height: 100px;
+        border-radius: 10%;
+        filter: grayscale(1);
+    }
+
+    .descrição_integrantes {
+        height: 150px;
+        overflow: scroll;
+    }
+
+    .redes_sociais_integrantes {
+        padding-left: 13px;
+    }
+}
+
+.form{
+    color: white;
+    position: absolute;
+    top: 75px; /* Ajuste o valor conforme necessário */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 50;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 15px;
+    width: 20%;
+}
+
+.obrigado {
+    background-image: linear-gradient(to right, rgb(7, 6, 6), rgb(36, 10, 7));
+    color: aliceblue; 
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 40%;
+    top: 50%;
+    left: 50%; 
+    font-family: Arial, Helvetica, sans-serif; 
+    position: absolute; 
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding:15px; 
+    border-radius: 15px;
+    border: 3px solid rgb(68, 11, 11);
+}
